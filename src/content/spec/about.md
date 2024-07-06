@@ -8,5 +8,5 @@ I'm committed to my own growth too, always learning and exploring new technologi
 Join me as I share my experiences, insights, and tips on cybersecurity. 😉
 <br/>Let's explore the exciting journey of technology together! 
 
-::github{repo="Cyberc0re-code/fuwari"}
+::github{repo="Cyberc0re-code/cyberc0re"}
 
