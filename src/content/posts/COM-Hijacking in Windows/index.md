@@ -5,7 +5,7 @@ description: 'Sub-Technique: T156'
 image: './COM-hijackingCover.png'
 tags: [Windows, COM-Hijacking, MITRE]
 category: 'Windows'
-draft: true
+draft: false
 ---
 
 # 1. Introduction

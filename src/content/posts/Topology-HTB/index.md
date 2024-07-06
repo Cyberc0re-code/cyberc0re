@@ -5,7 +5,7 @@ image: './HTB.gif'
 description: Topology - Hackthebox 
 tags: [Hackthebox, Box, Pentest]
 category: Hackthebox
-draft: true
+draft: false
 ---
 
 # Creating Host
