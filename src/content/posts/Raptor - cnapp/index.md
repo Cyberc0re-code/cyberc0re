@@ -5,7 +5,7 @@ description: 'Cloud Security Monitoring Tool'
 image: './Cloud.png'
 tags: [Cloud Security, Tool, Monitoring Tool]
 category: 'Cloud'
-draft: true
+draft: false
 ---
 
 # Raptor – Cloud Native Application Protection Platform (CNAPP)
