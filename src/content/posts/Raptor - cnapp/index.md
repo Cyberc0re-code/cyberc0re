@@ -34,39 +34,6 @@ From a DevSecOps perspective, Raptor emphasizes usability without compromising s
 Ultimately, Raptor demonstrates that robust cloud-native security can be achieved without relying on heavyweight commercial suites. By combining custom security tooling, cloud exploitation frameworks, and automation-first design, the platform showcases how cloud environments can be made resilient against modern adversaries—right from within the DevOps toolchain.
 
 ---
-## 🔧 Toolchain & Stack
-- **AWS CLI** – Automates cloud resource interactions.
-- **Prowler** – Performs compliance and misconfiguration checks against CIS benchmarks.
-- **Wiz open-cvdb** – Provides live vulnerability data for fast remediation.
-- **Pacu** – Red team framework for simulating real-world AWS attacks.
-- **Terraform** – Used to spin up a vulnerable AWS lab for testing.
-- **Kali Linux** – For manual security testing.
-- **Docker** – Containerizes workloads and tools.
-- **Custom Python Scripts** – End-to-end automation of attack paths and alerts.
-
----
-
-## 🧱 System Design Highlights
-1. **Cloud Integration**:
-   - Collects logs and telemetry from AWS, Azure, and GCP.
-   - Uses those inputs for network monitoring and attack detection.
-
-2. **CI/CD Pipeline Security**:
-   - Automatically scans:
-     - Container images
-     - IaC configurations
-     - Code commits
-   - Plug-and-play with Jenkins, GitHub Actions, etc.
-
-3. **Posture Management**:
-   - Continuously checks for misconfigurations and non-compliance.
-   - Built-in policies aligned with standards like GDPR, HIPAA, CIS.
-
-4. **Runtime Monitoring**:
-   - Watches for suspicious network flows or privilege misuse.
-   - Detects lateral movement and real-time attacks (e.g., SSH brute force, Log4Shell).
-
----
 
 ## 🔍 Implementation Walkthrough
 
